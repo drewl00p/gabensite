@@ -1,0 +1,15 @@
+
+.center {
+	margin: auto;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	width: fit-content;
+	border: 5px solid #000000;
+	padding: 30px;
+  }
+
+#time {
+	margin: auto;
+	font-family:'Courier New', Courier, monospace;
+	text-align: center;
+}
