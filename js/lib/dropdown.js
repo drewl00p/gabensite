@@ -1,5 +1,5 @@
 let dropdown = document.querySelector('.dropdown')
-let dropdown_toggle = false;
+//let dropdown_toggle = false;
 
 dropdown.addEventListener('mouseenter', (e) => {
   if (dropdown.classList.contains('closed')) {
@@ -7,10 +7,11 @@ dropdown.addEventListener('mouseenter', (e) => {
   }
 })
 dropdown.addEventListener('mouseleave', (e) => {
-  if (!dropdown.classList.contains('closed') && dropdown_toggle === false) {
+  if (!dropdown.classList.contains('closed')) {
     dropdown.classList.add('closed')   
   } 
 })
+/*
 dropdown.addEventListener('click', (e) => {
   if (!dropdown_toggle) {
     dropdown_toggle = true;
@@ -18,3 +19,4 @@ dropdown.addEventListener('click', (e) => {
     dropdown_toggle = false;
   }
 })
+*/
