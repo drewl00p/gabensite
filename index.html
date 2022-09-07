@@ -8,10 +8,15 @@
 
 
 <div class="center">
-  <div class="name"><a id="name" HREF="/~goldbeaj">Andrew Goldberg</A></div>
+  <div class="name"><a id="name" HREF="/">Andrew Goldberg</A></div>
   <div class="links">
-    <a HREF=/classes>Classes</a>
-    <p></p>
+    <div class="dropdown closed"> 
+        <div class="title">Classes</div>
+        <ul class="menu">
+          <li><a HREF=/classes/cs330>CS330</a></li>
+          <li><a HREF=/classes/cs220>CS220</a></li>
+        </ul>
+    </div>
     <a HREF=https://github.com/ordrew>GitHub</a>
   </div>
   <div id="time"></div>
@@ -20,11 +25,13 @@
 <body>
 <!-- particles.js container -->
 <div id="particles-js"></div>
+</body>
 
 <!-- scripts -->
 <script src="particles.js"></script>
 <script src="js/app.js"></script>
 <script src="js/lib/time.js"></script>
+<script src="js/lib/dropdown.js"></script>
 
-</body>
+
 </html>

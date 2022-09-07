@@ -42,6 +42,49 @@ canvas{
   display:block;
 }
 
+a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.dropdown {
+  transition: all 0.2s ease-in-out;
+  color: gray;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.dropdown.closed { 
+  color:white;
+}
+.menu {
+  transition: all 0.2s ease-in-out;
+  height: 45px;
+}
+.menu li {
+  transition: all 0.2s ease-in-out;
+  font-size: 18px;
+}
+/* .menu li:hover { background: rgb(252, 102, 102); } */
+.menu li:hover a { color: rgb(0, 255, 0);}
+
+.dropdown.closed .menu { height: 0; }
+#output {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  padding: 1rem;
+  width: 350px;
+  color: white;
+  
+}
+
+@media screen and (max-width: 800px) {
+  #output {
+    display: none;  
+  }  
+}
+
 a:link {
   color: white;
 }
@@ -82,7 +125,7 @@ a:hover {
   background: rgba(110, 110, 110, 0.1);
 	margin: auto;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   }
 
 #time {
