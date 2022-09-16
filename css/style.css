@@ -97,6 +97,11 @@ a:hover {
   color: rgb(94, 255, 0);
 }
 
+.output {
+  margin-top: 20px;
+  size: 80%;
+}
+
 .center  {
   margin: auto;
 	text-align: center;
