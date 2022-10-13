@@ -2,8 +2,8 @@
 /*
 	Name: Andrew Goldberg
         Course: CS330
-        Date: 9/16/2022
-        Homework Label: HW2_Code_Timer
+        Date: 9/30/2022
+        Homework Label: HW4_Process_Affinity
 */
 
 #define _GNU_SOURCE
